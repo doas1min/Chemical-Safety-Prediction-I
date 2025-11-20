@@ -26,11 +26,11 @@ LICENSE
 
 All datasets used in the paper are included in the `data/` directory.
 
-- **`HoC.csv`** — Full experimental Heat of Combustion dataset (4,780 molecules)
+- **`HoC.csv`** — Full experimental Heat of Combustion dataset
 - **`HoC_no_cyclic.csv`** — HoC dataset excluding the 12 cyclic compounds
 - **`HoC_cyclic_DFT_aug.csv`** — Cyclic-only HoC dataset (12 experimental + 43 DFT-augmented = 55 total)
-- **`VP.csv`** — Vapor Pressure dataset (n = 3,573), using `logVP` as target
-- **`Flashpoint.csv`** — Flashpoint dataset (n = 14,696)
+- **`VP.csv`** — Vapor Pressure dataset
+- **`Flashpoint.csv`** — Flashpoint dataset
 
 ---
 
