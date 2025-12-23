@@ -35,40 +35,6 @@ between classical ML and GNN-based approaches under a common structure.
 
 ---
 
-## Package Structure
-
-chemgnn/
-├── chemgnn/
-│   ├── __init__.py
-│   │
-│   ├── data.py
-│   │   └── CSV loading and dataset splitting utilities
-│   │
-│   ├── features/
-│   │   ├── rdkit_descriptors.py   # Descriptor computation for RF models
-│   │   └── nfp_features.py        # Atom/bond featurizers for GNN models
-│   │
-│   ├── datasets/
-│   │   ├── tabular.py             # Tabular dataset construction (RF)
-│   │   └── graph_tf.py            # TensorFlow graph datasets (GNN)
-│   │
-│   ├── models/
-│   │   ├── rf.py                  # Random Forest model definition
-│   │   └── nfp_gnn.py              # NFP-based GNN architecture
-│   │
-│   ├── train/
-│   │   ├── rf_train.py             # Training / CV / tuning for RF
-│   │   └── gnn_train.py            # Training and evaluation for GNN
-│   │
-│   └── evaluate.py                # Common regression metrics (MAE, RMSE, R²)
-│
-└── examples/
-    ├── RF_cyclic_HoC.ipynb         # Random Forest workflow example
-    └── GNN_model.ipynb             # GNN workflow example
-
-
----
-
 ## Installation
 
 This package is provided as a **reference implementation**.
