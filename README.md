@@ -25,7 +25,7 @@ This project provides a unified workflow for predicting chemical properties usin
   - Random Forest regression
 
 - **Graph-based models**
-  - message-passing graph neural networks
+  - message-passing neural networks (MPNN)
   - TensorFlow / Keras backend
 
 Data handling, feature generation, model definitions, training, and evaluation
@@ -72,7 +72,7 @@ The GNN workflow includes:
 1. SMILES-based graph construction
 2. Atom and bond featurization
 3. TensorFlow dataset generation
-4. Training and evaluation of a message-passing graph neural network (GNN)
+4. Training and evaluation of a message-passing neural network (MPNN)
 
 A full example is provided in:
 
