@@ -73,12 +73,13 @@ The GNN workflow includes:
 1. SMILES-based graph construction
 2. Atom and bond featurization
 3. TensorFlow dataset generation
-4. Training and evaluation of an NFP-style GNN
+4. Training and evaluation of a message-passing graph neural network (GNN)
 
 A full example is provided in:
 
 examples/GNN_model.ipynb
 
+This example uses the HoC dataset, but the same GNN pipeline applies to Vapor Pressure and Flashpoint with only dataset-specific changes.
 
 ---
 
