@@ -2,7 +2,7 @@
 
 **chemgnn** is a reference implementation of an integrated chemical property
 prediction framework combining traditional machine-learning models
-(e.g., Random Forest) and graph neural networks (GNNs) for cyclic compounds.
+(e.g., Random Forest) and graph neural networks (GNN).
 
 This repository accompanies the manuscript:
 
@@ -18,15 +18,14 @@ reproducibility, and reuse.
 
 ## Overview
 
-This project provides a unified workflow for predicting chemical properties
-of cyclic compounds using two complementary approaches:
+This project provides a unified workflow for predicting chemical properties using two complementary approaches:
 
 - **Descriptor-based models**
   - RDKit molecular descriptors
   - Random Forest regression
 
 - **Graph-based models**
-  - Neural Fingerprint (NFP)-style graph neural networks
+  - message-passing graph neural networks
   - TensorFlow / Keras backend
 
 Data handling, feature generation, model definitions, training, and evaluation
