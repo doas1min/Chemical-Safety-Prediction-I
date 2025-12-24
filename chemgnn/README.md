@@ -117,6 +117,5 @@ manuscript submitted to *Journal of Cheminformatics*.
 
 ## License
 
-This project is intended for academic and research use.
-Please refer to the repository for licensing details.
-
+This project is licensed under the MIT License.  
+See the **[LICENSE](LICENSE)** file for details.
