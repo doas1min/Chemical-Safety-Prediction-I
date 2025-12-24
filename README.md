@@ -79,7 +79,7 @@ A full example is provided in:
 
 examples/GNN_model.ipynb
 
-This example uses the HoC dataset, but the same GNN pipeline applies to Vapor Pressure and Flashpoint with only dataset-specific changes.
+This example uses the HoC dataset, but the same GNN pipeline applies to Vapor Pressure and Flashpoint.
 
 ---
 
